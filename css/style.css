@@ -38,8 +38,8 @@ RESPONSIVE
 \*----------------------------*/
 
 body {
-  font-family: 'Poppins', sans-serif;
-  font-size: 16px;
+  font-family: 'Noto Sans TC', sans-serif;
+  /* font-size: 16px; */
   color: #444;
 }
 
@@ -50,6 +50,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
+  font-size: 43px;
+}
+
+p {
   font-size: 43px;
 }
 
@@ -375,6 +379,14 @@ textarea.input {
 }
 
 .home-content h4 {
+  color: #FFF;
+}
+.home-content p {
+  text-transform: capitalize;
+  font-weight: 900;
+  color: #FFF;
+}
+.home-content p {
   color: #FFF;
 }
 
@@ -1050,6 +1062,12 @@ textarea.input {
     font-size: 31px;
   }
   .page-wrapper-content h1 {
+    font-size: 31px;
+  }
+  .home-content p {
+    font-size: 31px;
+  }
+  .page-wrapper-content p {
     font-size: 31px;
   }
   .event .event-day {
