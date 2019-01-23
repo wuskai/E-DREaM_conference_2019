@@ -53,10 +53,6 @@ h1 {
   font-size: 43px;
 }
 
-p {
-  font-size: 43px;
-}
-
 h2 {
   font-size: 31px;
 }
@@ -93,7 +89,7 @@ ul, ol {
 
 .main-btn {
   display: inline-block;
-  padding: 14px 50px;
+  padding: 5px 12px;
   background: #dd0a37;
   color: #FFF;
   text-transform: uppercase;
@@ -101,6 +97,7 @@ ul, ol {
   border-radius: 2px;
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
+  font-size: 25px;
 }
 
 .main-btn:hover, .main-btn:focus {
@@ -377,13 +374,17 @@ textarea.input {
   font-weight: 900;
   color: #FFF;
 }
-
+.home-content h2 {
+  text-transform: capitalize;
+  font-weight: 500;
+  color: #FFF;
+}
 .home-content h4 {
   color: #FFF;
 }
 .home-content p {
   text-transform: capitalize;
-  font-weight: 900;
+  font-weight: 300;
   color: #FFF;
 }
 .home-content p {
@@ -1064,11 +1065,18 @@ textarea.input {
   .page-wrapper-content h1 {
     font-size: 31px;
   }
+  .home-content h2 {
+    font-size: 25px;
+  }
+  .page-wrapper-content h2 {
+    font-size: 25px;
+  }
+  
   .home-content p {
-    font-size: 31px;
+    font-size: 15px;
   }
   .page-wrapper-content p {
-    font-size: 31px;
+    font-size: 15px;
   }
   .event .event-day {
     width: 90px;
