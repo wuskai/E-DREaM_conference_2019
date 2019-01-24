@@ -97,7 +97,7 @@ ul, ol {
   border-radius: 2px;
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
-  font-size: 25px;
+  font-size: 36px;
 }
 
 .main-btn:hover, .main-btn:focus {
@@ -380,14 +380,6 @@ textarea.input {
   color: #FFF;
 }
 .home-content h4 {
-  color: #FFF;
-}
-.home-content p {
-  text-transform: capitalize;
-  font-weight: 300;
-  color: #FFF;
-}
-.home-content p {
   color: #FFF;
 }
 
@@ -729,7 +721,7 @@ textarea.input {
 .event .event-hour {
   position: absolute;
   left: 62px;
-  top: 60px;
+  top: 30px;
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -768,7 +760,7 @@ textarea.input {
 
 .event .event-content {
   padding-left: 160px;
-  min-height: 120px;
+  min-height: 50px;
 }
 
 .event .event-time {
@@ -1072,12 +1064,6 @@ textarea.input {
     font-size: 25px;
   }
   
-  .home-content p {
-    font-size: 15px;
-  }
-  .page-wrapper-content p {
-    font-size: 15px;
-  }
   .event .event-day {
     width: 90px;
     height: 90px;
