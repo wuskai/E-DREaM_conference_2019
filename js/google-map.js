@@ -194,9 +194,9 @@ var style = [
 // Set google map options
 var options = {
 	center: position,
-	zoom: 14,
-	mapTypeControl: false,
-	streetViewControl: false,
+	zoom: 16,
+	mapTypeControl: true,
+	streetViewControl: true,
 	scrollwheel: false,
 	styles: style
 }
